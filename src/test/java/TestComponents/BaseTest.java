@@ -89,6 +89,7 @@ public class BaseTest {
 		File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		String destinationPath = System.getProperty("user.dir")+"/reports/screenshots/"+testName+".png";
 		FileUtils.copyFile(src, new File(destinationPath));
+		System.out.println("Screenshot captured");
 		return destinationPath;
 	}
 
