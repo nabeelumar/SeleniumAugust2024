@@ -2,6 +2,8 @@ package TestComponents;
 
 import java.io.IOException;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
@@ -14,6 +16,8 @@ import com.aventstack.extentreports.Status;
 import resources.ExtentReportNG;
 
 public class Listeners extends BaseTest implements ITestListener {
+	
+	public static Logger log = LogManager.getLogger(Listeners.class.getName());
 
 	ExtentReports extent = ExtentReportNG.getReport();
 	ExtentTest test;
@@ -26,6 +30,7 @@ public class Listeners extends BaseTest implements ITestListener {
 
 		test = extent.createTest(result.getMethod().getMethodName());
 		extentTest.set(test);
+		log.debug("Test "+result.getMethod().getMethodName()+" has started");
 	}
 
 	@Override
@@ -33,6 +38,8 @@ public class Listeners extends BaseTest implements ITestListener {
 		// TODO Auto-generated method stub
 		ITestListener.super.onTestSuccess(result);
 		extentTest.get().log(Status.PASS, "Test is passed");
+		
+		log.info("Test "+result.getMethod().getMethodName()+" has passed");
 	}
 
 	@Override
@@ -59,6 +66,8 @@ public class Listeners extends BaseTest implements ITestListener {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		
+		log.error("Test "+result.getMethod().getMethodName()+" has failed");
 
 	}
 

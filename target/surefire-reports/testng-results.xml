@@ -2,35 +2,35 @@
 <testng-results retried="1" ignored="1" total="6" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-01T09:42:40 PDT" name="Suite" finished-at="2024-08-01T09:44:14 PDT" duration-ms="93772">
+  <suite started-at="2024-08-02T07:21:30 PDT" name="Suite" finished-at="2024-08-02T07:22:29 PDT" duration-ms="58235">
     <groups>
       <group name="negative">
-        <method signature="StandAloneNegative.negativeTest()[pri:0, instance:andoorathodi.SeleniumTestNGJuly2024.StandAloneNegative@25fb8912]" name="negativeTest" class="andoorathodi.SeleniumTestNGJuly2024.StandAloneNegative"/>
+        <method signature="StandAloneNegative.negativeTest()[pri:0, instance:andoorathodi.SeleniumTestNGJuly2024.StandAloneNegative@30ea8c23]" name="negativeTest" class="andoorathodi.SeleniumTestNGJuly2024.StandAloneNegative"/>
       </group> <!-- negative -->
     </groups>
-    <test started-at="2024-08-01T09:42:40 PDT" name="Test" finished-at="2024-08-01T09:44:14 PDT" duration-ms="93772">
+    <test started-at="2024-08-02T07:21:30 PDT" name="Test" finished-at="2024-08-02T07:22:29 PDT" duration-ms="58235">
       <class name="andoorathodi.SeleniumTestNGJuly2024.StandAloneNegative">
-        <test-method is-config="true" signature="launcURL()[pri:0, instance:andoorathodi.SeleniumTestNGJuly2024.StandAloneNegative@25fb8912]" started-at="2024-08-01T09:43:41 PDT" name="launcURL" finished-at="2024-08-01T09:43:49 PDT" duration-ms="7739" status="PASS">
+        <test-method is-config="true" signature="launcURL()[pri:0, instance:andoorathodi.SeleniumTestNGJuly2024.StandAloneNegative@30ea8c23]" started-at="2024-08-02T07:22:05 PDT" name="launcURL" finished-at="2024-08-02T07:22:09 PDT" duration-ms="4896" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launcURL -->
-        <test-method retried="true" signature="negativeTest()[pri:0, instance:andoorathodi.SeleniumTestNGJuly2024.StandAloneNegative@25fb8912]" started-at="2024-08-01T09:43:49 PDT" name="negativeTest" finished-at="2024-08-01T09:43:57 PDT" duration-ms="7785" status="SKIP">
+        <test-method retried="true" signature="negativeTest()[pri:0, instance:andoorathodi.SeleniumTestNGJuly2024.StandAloneNegative@30ea8c23]" started-at="2024-08-02T07:22:09 PDT" name="negativeTest" finished-at="2024-08-02T07:22:16 PDT" duration-ms="6691" status="SKIP">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[Expected condition failed: waiting for visibility of element located by By.cssSelector: .mb-3 (tried for 5 second(s) with 500 milliseconds interval)
 Build info: version: '4.23.0', revision: '4df0a231af'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.4', java.version: '16.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 127.0.6533.74, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: /var/folders/0q/v1_ylhjs4qg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50490}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:50490/devtoo..., se:cdpVersion: 127.0.6533.74, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: dbb79e6819e84f477519a67635af9340]]>
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.5', java.version: '21.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52622}, msedge: {msedgedriverVersion: 127.0.2651.87 (6ea9120dfb2f..., userDataDir: /var/folders/0q/v1_ylhjs4qg...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:52622/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 793492038f9cfa5bd802081f76235e75]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: .mb-3 (tried for 5 second(s) with 500 milliseconds interval)
 Build info: version: '4.23.0', revision: '4df0a231af'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.4', java.version: '16.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 127.0.6533.74, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: /var/folders/0q/v1_ylhjs4qg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50490}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:50490/devtoo..., se:cdpVersion: 127.0.6533.74, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: dbb79e6819e84f477519a67635af9340
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.5', java.version: '21.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52622}, msedge: {msedgedriverVersion: 127.0.2651.87 (6ea9120dfb2f..., userDataDir: /var/folders/0q/v1_ylhjs4qg...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:52622/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 793492038f9cfa5bd802081f76235e75
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
 at Abstractcomponents.AbstractComponents.waitElementToAppear(AbstractComponents.java:26)
@@ -38,10 +38,8 @@ at PageObjects.ProductCatalogue.getProducts(ProductCatalogue.java:35)
 at PageObjects.ProductCatalogue.getProduct(ProductCatalogue.java:41)
 at PageObjects.ProductCatalogue.addToCart(ProductCatalogue.java:50)
 at andoorathodi.SeleniumTestNGJuly2024.StandAloneNegative.negativeTest(StandAloneNegative.java:16)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
 at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
@@ -50,7 +48,7 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 at org.testng.TestRunner.privateRun(TestRunner.java:739)
 at org.testng.TestRunner.run(TestRunner.java:614)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
@@ -76,31 +74,31 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- negativeTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:andoorathodi.SeleniumTestNGJuly2024.StandAloneNegative@25fb8912]" started-at="2024-08-01T09:43:57 PDT" name="tearDown" finished-at="2024-08-01T09:43:57 PDT" duration-ms="73" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:andoorathodi.SeleniumTestNGJuly2024.StandAloneNegative@30ea8c23]" started-at="2024-08-02T07:22:16 PDT" name="tearDown" finished-at="2024-08-02T07:22:16 PDT" duration-ms="133" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launcURL()[pri:0, instance:andoorathodi.SeleniumTestNGJuly2024.StandAloneNegative@25fb8912]" started-at="2024-08-01T09:43:57 PDT" name="launcURL" finished-at="2024-08-01T09:44:05 PDT" duration-ms="7704" status="PASS">
+        <test-method is-config="true" signature="launcURL()[pri:0, instance:andoorathodi.SeleniumTestNGJuly2024.StandAloneNegative@30ea8c23]" started-at="2024-08-02T07:22:16 PDT" name="launcURL" finished-at="2024-08-02T07:22:21 PDT" duration-ms="5063" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launcURL -->
-        <test-method signature="negativeTest()[pri:0, instance:andoorathodi.SeleniumTestNGJuly2024.StandAloneNegative@25fb8912]" started-at="2024-08-01T09:44:05 PDT" name="negativeTest" finished-at="2024-08-01T09:44:13 PDT" duration-ms="7904" status="FAIL">
+        <test-method signature="negativeTest()[pri:0, instance:andoorathodi.SeleniumTestNGJuly2024.StandAloneNegative@30ea8c23]" started-at="2024-08-02T07:22:21 PDT" name="negativeTest" finished-at="2024-08-02T07:22:28 PDT" duration-ms="6736" status="FAIL">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[Expected condition failed: waiting for visibility of element located by By.cssSelector: .mb-3 (tried for 5 second(s) with 500 milliseconds interval)
 Build info: version: '4.23.0', revision: '4df0a231af'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.4', java.version: '16.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 127.0.6533.74, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: /var/folders/0q/v1_ylhjs4qg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50505}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:50505/devtoo..., se:cdpVersion: 127.0.6533.74, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4b01622003abf7d144ac24082be8d49d]]>
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.5', java.version: '21.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52652}, msedge: {msedgedriverVersion: 127.0.2651.87 (6ea9120dfb2f..., userDataDir: /var/folders/0q/v1_ylhjs4qg...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:52652/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ec8239e1c1576e3211640874f814119e]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: .mb-3 (tried for 5 second(s) with 500 milliseconds interval)
 Build info: version: '4.23.0', revision: '4df0a231af'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.4', java.version: '16.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 127.0.6533.74, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: /var/folders/0q/v1_ylhjs4qg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50505}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:50505/devtoo..., se:cdpVersion: 127.0.6533.74, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4b01622003abf7d144ac24082be8d49d
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.5', java.version: '21.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52652}, msedge: {msedgedriverVersion: 127.0.2651.87 (6ea9120dfb2f..., userDataDir: /var/folders/0q/v1_ylhjs4qg...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:52652/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ec8239e1c1576e3211640874f814119e
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
 at Abstractcomponents.AbstractComponents.waitElementToAppear(AbstractComponents.java:26)
@@ -108,10 +106,8 @@ at PageObjects.ProductCatalogue.getProducts(ProductCatalogue.java:35)
 at PageObjects.ProductCatalogue.getProduct(ProductCatalogue.java:41)
 at PageObjects.ProductCatalogue.addToCart(ProductCatalogue.java:50)
 at andoorathodi.SeleniumTestNGJuly2024.StandAloneNegative.negativeTest(StandAloneNegative.java:16)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
 at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
 at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
@@ -120,7 +116,7 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 at org.testng.TestRunner.privateRun(TestRunner.java:739)
 at org.testng.TestRunner.run(TestRunner.java:614)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
@@ -146,17 +142,17 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- negativeTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:andoorathodi.SeleniumTestNGJuly2024.StandAloneNegative@25fb8912]" started-at="2024-08-01T09:44:13 PDT" name="tearDown" finished-at="2024-08-01T09:44:14 PDT" duration-ms="149" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:andoorathodi.SeleniumTestNGJuly2024.StandAloneNegative@30ea8c23]" started-at="2024-08-02T07:22:28 PDT" name="tearDown" finished-at="2024-08-02T07:22:29 PDT" duration-ms="72" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- andoorathodi.SeleniumTestNGJuly2024.StandAloneNegative -->
       <class name="andoorathodi.SeleniumTestNGJuly2024.StandAloneTest">
-        <test-method is-config="true" signature="launcURL()[pri:0, instance:andoorathodi.SeleniumTestNGJuly2024.StandAloneTest@4d465b11]" started-at="2024-08-01T09:42:40 PDT" name="launcURL" finished-at="2024-08-01T09:42:51 PDT" duration-ms="10787" status="PASS">
+        <test-method is-config="true" signature="launcURL()[pri:0, instance:andoorathodi.SeleniumTestNGJuly2024.StandAloneTest@7fcbe147]" started-at="2024-08-02T07:21:30 PDT" name="launcURL" finished-at="2024-08-02T07:21:43 PDT" duration-ms="12885" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launcURL -->
-        <test-method signature="standaloneTest(java.util.HashMap)[pri:0, instance:andoorathodi.SeleniumTestNGJuly2024.StandAloneTest@4d465b11]" started-at="2024-08-01T09:42:51 PDT" name="standaloneTest" data-provider="dataTest" finished-at="2024-08-01T09:43:05 PDT" duration-ms="14716" status="PASS">
+        <test-method signature="standaloneTest(java.util.HashMap)[pri:0, instance:andoorathodi.SeleniumTestNGJuly2024.StandAloneTest@7fcbe147]" started-at="2024-08-02T07:21:43 PDT" name="standaloneTest" data-provider="dataTest" finished-at="2024-08-02T07:21:49 PDT" duration-ms="5297" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -167,15 +163,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- standaloneTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:andoorathodi.SeleniumTestNGJuly2024.StandAloneTest@4d465b11]" started-at="2024-08-01T09:43:05 PDT" name="tearDown" finished-at="2024-08-01T09:43:06 PDT" duration-ms="106" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:andoorathodi.SeleniumTestNGJuly2024.StandAloneTest@7fcbe147]" started-at="2024-08-02T07:21:49 PDT" name="tearDown" finished-at="2024-08-02T07:21:49 PDT" duration-ms="134" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launcURL()[pri:0, instance:andoorathodi.SeleniumTestNGJuly2024.StandAloneTest@4d465b11]" started-at="2024-08-01T09:43:06 PDT" name="launcURL" finished-at="2024-08-01T09:43:13 PDT" duration-ms="7875" status="PASS">
+        <test-method is-config="true" signature="launcURL()[pri:0, instance:andoorathodi.SeleniumTestNGJuly2024.StandAloneTest@7fcbe147]" started-at="2024-08-02T07:21:49 PDT" name="launcURL" finished-at="2024-08-02T07:21:53 PDT" duration-ms="4765" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launcURL -->
-        <test-method signature="standaloneTest(java.util.HashMap)[pri:0, instance:andoorathodi.SeleniumTestNGJuly2024.StandAloneTest@4d465b11]" started-at="2024-08-01T09:43:13 PDT" name="standaloneTest" data-provider="dataTest" finished-at="2024-08-01T09:43:28 PDT" duration-ms="14490" status="PASS">
+        <test-method signature="standaloneTest(java.util.HashMap)[pri:0, instance:andoorathodi.SeleniumTestNGJuly2024.StandAloneTest@7fcbe147]" started-at="2024-08-02T07:21:53 PDT" name="standaloneTest" data-provider="dataTest" finished-at="2024-08-02T07:21:59 PDT" duration-ms="5344" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -186,19 +182,19 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- standaloneTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:andoorathodi.SeleniumTestNGJuly2024.StandAloneTest@4d465b11]" started-at="2024-08-01T09:43:28 PDT" name="tearDown" finished-at="2024-08-01T09:43:28 PDT" duration-ms="133" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:andoorathodi.SeleniumTestNGJuly2024.StandAloneTest@7fcbe147]" started-at="2024-08-02T07:21:59 PDT" name="tearDown" finished-at="2024-08-02T07:21:59 PDT" duration-ms="77" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launcURL()[pri:0, instance:andoorathodi.SeleniumTestNGJuly2024.StandAloneTest@4d465b11]" started-at="2024-08-01T09:43:28 PDT" name="launcURL" finished-at="2024-08-01T09:43:37 PDT" duration-ms="8841" status="PASS">
+        <test-method is-config="true" signature="launcURL()[pri:0, instance:andoorathodi.SeleniumTestNGJuly2024.StandAloneTest@7fcbe147]" started-at="2024-08-02T07:21:59 PDT" name="launcURL" finished-at="2024-08-02T07:22:04 PDT" duration-ms="4700" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launcURL -->
-        <test-method signature="checkOrder()[pri:0, instance:andoorathodi.SeleniumTestNGJuly2024.StandAloneTest@4d465b11]" started-at="2024-08-01T09:43:37 PDT" name="checkOrder" finished-at="2024-08-01T09:43:41 PDT" depends-on-methods="andoorathodi.SeleniumTestNGJuly2024.StandAloneTest.standaloneTest" duration-ms="4460" status="PASS">
+        <test-method signature="checkOrder()[pri:0, instance:andoorathodi.SeleniumTestNGJuly2024.StandAloneTest@7fcbe147]" started-at="2024-08-02T07:22:04 PDT" name="checkOrder" finished-at="2024-08-02T07:22:04 PDT" depends-on-methods="andoorathodi.SeleniumTestNGJuly2024.StandAloneTest.standaloneTest" duration-ms="909" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkOrder -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:andoorathodi.SeleniumTestNGJuly2024.StandAloneTest@4d465b11]" started-at="2024-08-01T09:43:41 PDT" name="tearDown" finished-at="2024-08-01T09:43:41 PDT" duration-ms="96" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:andoorathodi.SeleniumTestNGJuly2024.StandAloneTest@7fcbe147]" started-at="2024-08-02T07:22:04 PDT" name="tearDown" finished-at="2024-08-02T07:22:05 PDT" duration-ms="73" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

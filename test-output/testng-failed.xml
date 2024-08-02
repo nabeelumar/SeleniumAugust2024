@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="andoorathodi.SeleniumTestNGJuly2024.StandAloneTest">
+      <class name="andoorathodi.SeleniumTestNGJuly2024.DataProviderExcelSample">
         <methods>
-          <include name="tearDown"/>
-          <include name="launcURL"/>
-          <include name="checkOrder"/>
+          <include name="getData"/>
         </methods>
-      </class> <!-- andoorathodi.SeleniumTestNGJuly2024.StandAloneTest -->
+      </class> <!-- andoorathodi.SeleniumTestNGJuly2024.DataProviderExcelSample -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
